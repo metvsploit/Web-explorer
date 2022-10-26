@@ -1,0 +1,18 @@
+﻿@model List<Explorer.Models.DTO.FolderDto>
+
+<div class="wrapper">
+        <nav id="sidebar">
+            <div class="tree-container">
+                @foreach(var folder in Model)
+                {
+                    <ul class="treeline">
+                        <li><div class="drop"></div><span>@folder.Name</span>
+                     
+                    </li>
+                    </ul>
+                }
+            
+            </div>
+        </nav>
+</div>
+

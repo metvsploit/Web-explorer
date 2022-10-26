@@ -1,0 +1,241 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html, body {
+    overflow:hidden;
+}
+
+
+
+li > span:hover {
+    background-color: rgb(99, 99, 99, 0.5);
+}
+
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+    overflow-x: hidden;
+}
+
+#sidebar {
+    min-width: 300px;
+    max-width: 300px;
+    min-height: 100vh;
+    background: #212529;
+    border: 3px;
+    box-sizing: border-box;
+    color: white;
+    padding: 0 5px 5px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+}
+
+
+
+.sidebar-header {
+    text-align: center;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+
+.tree-container {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+
+.treeline, .treeline ul, .treeline li {
+    margin: 3px;
+    padding: 3px;
+    line-height: 1.2;
+    list-style: none;
+}
+
+.treeline > li:not(:only-child), .treeline li li {
+    position: relative;
+    padding: 0 0 0 13px;
+}
+
+.treeline .drop {
+    position: absolute;
+    left: -10px;
+    top: 5px;
+    width: 7px;
+    height: 15px;
+    line-height: 1em;
+    text-align: center;
+    background: none;
+    font-size: 100%; 
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
+.treeline li:last-child > .drop {
+    margin-left: 1px;
+}
+
+.treeline .drop + ul {
+    display: none;
+}
+
+.treeline .dropM + ul {
+    display: block;
+}
+
+.treeline li:hover{
+    cursor:pointer;
+}
+
+#content {
+    background: #212529;
+    width: 100%;
+    cursor: text;
+
+}
+
+
+#pills-tabContent {
+    padding: 0 70px 70px 70px;
+    color: white;
+    background: #343a40;
+    height: 80vh;
+    white-space: pre-line;
+    overflow-y:auto;
+    width: 90%;
+}
+
+#pills-tab {
+    background: #212529;
+}
+
+
+.nav-link {
+    color:white;
+}
+
+.nav-link a:hover {
+    color:white;
+}
+
+.close {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 18px;
+    padding-top: 0px;
+    opacity: 0.6;
+    text-decoration: none;
+    display: inline;
+    color:white;
+}
+
+.close:hover {
+    color:white;
+    display: inline;
+    text-decoration: none;
+    opacity: 0.3;
+    cursor: pointer;
+ }
+
+#loader {
+    width:100px;
+    height:100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto
+}
+
+#sidesetting {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    background: #212529;
+    border: 3px;
+    box-sizing: border-box;
+    color: white;
+    padding: 0 5px 10px;
+    word-wrap: break-word;
+}
+
+
+.context-menu, .context-menu-main {
+    float: left;
+    font-family: sans-serif;
+    position: absolute;
+    display: none;
+    background-color: #212529;
+    border: 1px solid #333;
+    color: white;
+    padding: 5px;
+}
+
+.context-menu span:hover, .context-menu-main span:hover {
+    cursor: pointer;
+}
+
+.context-menu ul, .context-menu-main ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.context-menu ul li, .context-menu-main ul li {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.file-img {
+    padding-right: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+#new-type-submit, #delete-type-submit, #create-project-btn {
+    width: 50px;
+    font-weight:bold;
+}
